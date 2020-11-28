@@ -5,11 +5,11 @@
 <?php
 
 function putarArray($array) {
-	$x=1;
+    $x=1;
     $jml=count($array);
     $y=$jml-1;
     
-	while($x <= 4) {
+    while($x <= 4) {
     $tmp=$array[0];
     echo "Putaran $x: [ ";
     for ($i = 0; $i <= $jml; $i++) {
@@ -20,7 +20,7 @@ function putarArray($array) {
     $array[$y]=$tmp;
     
     foreach ( $array as $print){
-     echo "$print ";
+    echo "$print ";
        }
     echo" ]<br>";
     $x++;
