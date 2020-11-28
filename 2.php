@@ -13,9 +13,7 @@ function putarArray($array) {
     $tmp=$array[0];
     echo "Putaran $x: [ ";
     for ($i = 0; $i <= $jml; $i++) {
-        if ($i < $jml ){
         $array[$i] = $array[$i+1];
-        }
     }
     $array[$y]=$tmp;
     
